@@ -88,9 +88,9 @@ export default function Home() {
             className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
           />
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-24 md:py-32 sm:py-48 lg:py-56">
           <main className="text-center">
-            <h1 className="text-[100px] md:text[200px] lg:text-[200px] font-extralight tracking-tight text-white p-0 m-0">
+            <h1 className="text-[150px] md:text[200px] lg:text-[200px] font-extralight tracking-tight text-white p-0 m-0">
               URUZ
             </h1>
             <h2 className="text-[40px] font-extralight  tracking-tight text-white">
@@ -134,11 +134,11 @@ export default function Home() {
       {/* Stats */}
       <section className="text-center flex flex-col">
         <div className="w-full">
-          <h3 className="text-[20px] text-white md:text-[40px]">
+          <h3 className="text-[40px] text-white md:text-[40px]">
             Trusted by companies worldwide
           </h3>
         </div>
-        <div className="flex justify-center py-12 z-50">
+        <div className="flex justify-center py-12 z-50 px-4 md:px-0">
           <div className="w-auto bg-slate-800 flex rounded-md justify-center flex-wrap">
             {stats.map(({ name, value }, index) => (
               <div key={index} className="w-72 py-8 text-white rounded-md">
@@ -192,7 +192,7 @@ export default function Home() {
           <h3 className="text-[30px] lg:text-[40px]">
             Let&apos;s Have a Chat 🖐️
           </h3>
-          <p className="text-slate-300 pb-10">
+          <p className="text-slate-300 py-5 px-4 lg">
             Questions about our products/services, orders, or just want to say
             hello? We&apos;re here to help.
           </p>
@@ -252,7 +252,7 @@ export default function Home() {
               ></textarea>
             </div>
             <div className="w-full px-4 pb-4">
-              <button className="w-full rounded-md bg-slate-800 m-auto p-2 ">
+              <button className="w-full rounded-md bg-indigo-600 m-auto p-2 hover:bg-indigo-500">
                 Send message
               </button>
             </div>
