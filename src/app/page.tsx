@@ -90,7 +90,7 @@ export default function Home() {
         </div>
         <div className="mx-auto max-w-2xl py-24 md:py-32 sm:py-48 lg:py-56">
           <main className="text-center">
-            <h1 className="text-[150px] md:text[200px] lg:text-[200px] font-extralight tracking-tight text-white p-0 m-0">
+            <h1 className="text-[130px] md:text[200px] lg:text-[200px] font-extralight tracking-tight text-white p-0 m-0">
               URUZ
             </h1>
             <h2 className="text-[40px] font-extralight  tracking-tight text-white">
