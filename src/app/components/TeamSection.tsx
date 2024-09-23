@@ -67,7 +67,9 @@ const TeamSection = () => {
               <h3 className="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
                 <a href="#">Johan Zavala</a>
               </h3>
-              <span className="text-gray-500 dark:text-gray-400">CTO</span>
+              <span className="text-gray-500 dark:text-gray-400">
+                Marketing Director & Product Manager
+              </span>
               <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
                 Johan drives the technical strategy of the flowbite platform and
                 brand.
