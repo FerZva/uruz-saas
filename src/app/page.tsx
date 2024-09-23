@@ -7,6 +7,7 @@ import {
   MdDevices,
   MdOutlineAnalytics,
 } from "react-icons/md";
+import TestimonialSlider from "./components/Testimonials";
 
 export default function Home() {
   interface Stat {
@@ -181,7 +182,7 @@ export default function Home() {
       </section>
       {/* End Our Services */}
       {/* Testomonials */}
-      <section className="py-32 lg:px-60 md:px-28 sm:px-10"></section>
+      <TestimonialSlider />
       {/* End Testimonials */}
       {/* Contact Us */}
       <section className="py-32 lg:px-60 md:px-28s sm:px-10"></section>
