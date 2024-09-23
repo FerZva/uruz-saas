@@ -8,6 +8,7 @@ import {
   MdOutlineAnalytics,
 } from "react-icons/md";
 import TestimonialSlider from "./components/Testimonials";
+import TeamSection from "./components/TeamSection";
 
 export default function Home() {
   interface Stat {
@@ -184,9 +185,10 @@ export default function Home() {
       {/* Testomonials */}
       <TestimonialSlider />
       {/* End Testimonials */}
-      {/* Contact Us */}
-      <section className="py-32 lg:px-60 md:px-28s sm:px-10"></section>
-      {/* End Contact Us */}
+      {/* Team Section */}
+      <TeamSection />
+      {/* <section className="py-32 lg:px-60 md:px-28 sm:px-10"></section> */}
+      {/* End Team Section */}
       {/* Contact Us */}
       <section className="px-2 lg:py-32 lg:px-60 flex flex-col text-center text-white md:px-28 sm:px-2">
         <div className="">

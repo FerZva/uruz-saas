@@ -62,7 +62,7 @@ const TestimonialSlider: React.FC = () => {
   const currentTestimonial = testimonials[currentIndex];
 
   return (
-    <div className="w-full max-w-6xl mx-auto p-4">
+    <section className="w-full max-w-6xl mx-auto px-4 py-32">
       <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-8">
         <div className="mb-6 lg:mb-0 lg:w-1/3">
           <h2 className="text-white text-[40px] text-2xl mb-4 leading-[50px]">
@@ -118,7 +118,7 @@ const TestimonialSlider: React.FC = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
