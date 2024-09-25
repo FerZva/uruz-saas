@@ -9,7 +9,6 @@ import {
 } from "react-icons/md";
 import TestimonialSlider from "./components/Testimonials";
 import TeamSection from "./components/TeamSection";
-import FooterLayout from "./components/FooterLayout";
 
 export default function Home() {
   interface Stat {

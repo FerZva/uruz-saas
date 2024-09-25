@@ -3,7 +3,7 @@ interface Navigation {
   href: string;
 }
 
-export const navigation = [
+export const navigation: Navigation[] = [
   { name: "Our Services", href: "#" },
   { name: "Our Clients", href: "#" },
   { name: "Marketplace", href: "/marketplace" },
