@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import HeaderLayout from "./components/HeaderLayout";
+import FooterLayout from "./components/FooterLayout";
 
 export const metadata: Metadata = {
   title: "URUZ Software Solutions",
@@ -18,6 +19,7 @@ export default function RootLayout({
         <div className="bg-slate-900 min-h-screen">
           <HeaderLayout />
           {children}
+          <FooterLayout />
         </div>
       </body>
     </html>
