@@ -18,7 +18,7 @@ export default function RootLayout({
       <body className="antialiased">
         <div className="bg-slate-900 min-h-screen">
           <HeaderLayout />
-          {children}
+          <div>{children}</div>
           <FooterLayout />
         </div>
       </body>

@@ -1,44 +1,37 @@
 import React from "react";
+import { categories } from "../services/data";
+import { CiSearch } from "react-icons/ci";
 
 function marketplace() {
   return (
-    <div className="relative">
-      <label htmlFor="Search" className="sr-only">
-        {" "}
-        Search for...{" "}
-      </label>
-
-      <input
-        type="text"
-        id="Search"
-        placeholder="chad@rhcp.com"
-        className="w-full rounded-md border-gray-200 py-2.5 pe-10 shadow-sm sm:text-sm dark:border-gray-700 dark:bg-gray-800 dark:text-white"
-      />
-
-      <span className="absolute inset-y-0 end-0 grid w-10 place-content-center">
-        <button
-          type="button"
-          className="text-gray-600 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-300"
-        >
-          <span className="sr-only">Search</span>
-
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth="1.5"
-            stroke="currentColor"
-            className="size-4"
+    <section className="w-full px-2 py-32 lg:px-32">
+      {/* Seearchbar */}
+      <div className="w-full flex justify-center py-4">
+        <div className="flex bg-slate-800 items-center px-2">
+          <input
+            type="text"
+            name=""
+            id=""
+            placeholder="Search..."
+            className="bg-slate-800 border-none rounded-md"
+          />
+          <CiSearch className="text-white text-xl" />
+        </div>
+      </div>
+      {/* end Searchbar */}
+      {/* Categories */}
+      <div className="flex justify-center">
+        {categories.map(({ category }, index) => (
+          <div
+            className="text-white bg-slate-800 p-2 m-2 rounded-md"
+            key={index}
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-            />
-          </svg>
-        </button>
-      </span>
-    </div>
+            <p>{category}</p>
+          </div>
+        ))}
+      </div>
+      {/* End Categories */}
+    </section>
   );
 }
 
